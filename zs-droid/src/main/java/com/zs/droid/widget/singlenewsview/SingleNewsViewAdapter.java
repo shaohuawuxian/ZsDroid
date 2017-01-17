@@ -28,7 +28,7 @@ public abstract class SingleNewsViewAdapter<T> {
     }
     public abstract View getView(int position, View convertView);
 
-    public void destroy(){
+    protected void destroy(){
         if(mList!=null){
             mList.clear();
         }

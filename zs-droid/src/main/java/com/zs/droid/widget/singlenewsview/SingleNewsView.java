@@ -73,13 +73,14 @@ public class SingleNewsView extends RelativeLayout {
 
 
     /**
-     * 设置位置
+     * 设置需要展示的item 位置
      *
      * @param pos
      */
     public void setCurrentPosition(int pos) {
         currentPosition = pos;
         gongPosition = currentPosition + 1;
+        changePosition();
     }
 
     public int getCurrentPosition() {
