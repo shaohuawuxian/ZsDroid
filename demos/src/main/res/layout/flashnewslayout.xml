@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2b2b2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <ImageView
+            android:id="@+id/autoview_v_title"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/flashnews"
+            />
+
+        <com.zs.droid.widget.singlenewsview.SingleNewsView
+            android:id="@+id/autoview_v_aview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/autoview_h_title"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/flashnews"
+            />
+
+        <com.zs.droid.widget.singlenewsview.SingleNewsView
+            android:id="@+id/autoview_h_aview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

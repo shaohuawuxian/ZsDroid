@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZSDroid.iml" filepath="$PROJECT_DIR$/ZSDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demos/demos.iml" filepath="$PROJECT_DIR$/demos/demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zs-droid/zs-droid.iml" filepath="$PROJECT_DIR$/zs-droid/zs-droid.iml" />
+    </modules>
+  </component>
+</project>
