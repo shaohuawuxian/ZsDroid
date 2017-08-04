@@ -1,9 +1,6 @@
 package com.zs.droid.singlenewview;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.support.v7.app.AppCompatActivity;
-
 import com.zs.droid.BaseActivity;
 import com.zs.droid.R;
 import com.zs.droid.widget.singlenewsview.SingleNewsView;

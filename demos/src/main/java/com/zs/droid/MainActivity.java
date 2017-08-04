@@ -1,16 +1,14 @@
 package com.zs.droid;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.view.Window;
 
 import com.zs.droid.singlenewview.SingleNewsViewActivity;
+import com.zs.droid.slidingview.SlidingViewActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +38,7 @@ public class MainActivity extends BaseActivity {
     static List<ListItemModel> list=new ArrayList<>();
     static {
         list.add(new ListItemModel(SingleNewsViewActivity.class));
+        list.add(new ListItemModel(SlidingViewActivity.class));
     }
     RecyclerView mRecylcerView;
     MainListAdapter mMainListAdapter;
