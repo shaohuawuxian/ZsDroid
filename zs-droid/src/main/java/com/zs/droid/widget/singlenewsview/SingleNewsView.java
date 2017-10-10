@@ -232,6 +232,9 @@ public class SingleNewsView extends RelativeLayout {
         moveHeight = height;
         requestLayout();
     }
+    private int getMoveHeight(){
+        return moveHeight;
+    }
 
     /**
      * 动画使用,混淆时候需要keep
@@ -241,6 +244,9 @@ public class SingleNewsView extends RelativeLayout {
     private void setMoveWidth(int width) {
         moveWidth = width;
         requestLayout();
+    }
+    private int getMoveWidth(){
+        return moveWidth;
     }
 
     private void animation() {
